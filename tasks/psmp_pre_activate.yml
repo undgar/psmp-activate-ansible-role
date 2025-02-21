@@ -79,6 +79,7 @@
           - "{{ vault_username }}"
           - "-Password"
           - "{{ vault_password }}"
+          - "-entropyfile"
     - name: Set the vault credfile fact
       set_fact:
         credfile_path: "{{ psmp_default_credfile_path }}"

@@ -32,7 +32,7 @@ psmp_delete_credfile: false
 psmp_fetch_activation_logs: true
 
 # Vars for running tasks
-psmp_service_name: "psmpsrv"
+psmp_service_name: "psmpsrv.service"
 psmp_bin_path: /opt/CARKpsmp/bin
 psmp_var_path: /var/opt/CARKpsmp
 psmp_console_log_path: "{{ psmp_var_path }}/logs/PSMPConsole.log"

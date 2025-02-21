@@ -19,6 +19,8 @@
       - "{{ psmp_app_user_name }}"
       - -PSMPGWUser
       - "{{ psmp_gw_user_name }}"
+      - -PSMPServerId
+      - "psmp01"
   when: psmp_create_psmp_env
 - name: Run PSMP ADB createenv
   command:
