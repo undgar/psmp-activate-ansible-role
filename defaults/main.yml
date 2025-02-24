@@ -25,6 +25,7 @@ psmp_create_psmp_env: true
 psmp_create_adbridge_env: true
 psmp_app_user_name: ""
 psmp_gw_user_name: ""
+psmp_server_id: ""
 psmp_adb_user_name: ""
 psmp_preauth_secured_session: false
 psmp_selfsigned_certificates: false

@@ -80,3 +80,9 @@
   when:
     - (psmp_adb_user_name is undefined or psmp_adb_user_name == '')
     - psmp_create_adbridge_env
+- name: Set PSMP Server ID
+  set_fact:
+    psmp_server_id: "PSMP_{{ ansible_hostname }}"
+    when:
+      - (psmp_server_id is undefined or psmp_server_id == '')
+      - psmppsmp_server_id
